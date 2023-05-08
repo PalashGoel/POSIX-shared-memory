@@ -1,0 +1,6 @@
+FROM ubuntu:22.10
+
+ARG binary=read
+COPY $binary ./
+
+CMD ["/read"]
